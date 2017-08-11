@@ -1,0 +1,43 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-xs-12' id='background'>
+        <div id='title' class='row'>Pomodoro clock</div>
+        <div id='window' class='row'> 
+          <div id='state' class='row'>state</div>
+          <div class='row'>
+            <div class='col-xs-6 cl-sm'>
+              <div class='row'>
+                <div class='col-xs-2 col-xs-offset-2 plus-min'><button id='btn-br-plus' style='background: #F95738'>+</button></div>
+                <div class='col-xs-6' id="cl-break">5</div> 
+                <div class='col-xs-2 plus-min'><button id='btn-br-min' style='background: #F95738'>-</button></div>           
+              </div>
+            </div>        
+            <div class='col-xs-6 cl-sm'>
+              <div class='row'>
+                <div class='col-xs-2 col-xs-offset-2 plus-min'><button id='btn-se-min' style='background: #82CF7C'>-</button></div>
+                <div class='col-xs-6' id="cl-sess">25</div> 
+                <div class='col-xs-2 plus-min'><button id='btn-se-plus' style='background: #82CF7C'>+</button></div>
+              </div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-xs-12 cl-lg'><div id="cl-main"><div id='time'>25:00</div></div></div>
+            <button class='btn-start' style='background: #caf45e'>Start</button>
+            <button class='btn-stop' style='background: #EE4B51'>Stop</button>
+            <button class='btn-reset' style='background: orange'>Reset</button>
+          </div>        
+        </div>
+      </div>  
+    </div>
+  </div>
+</body>
